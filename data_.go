@@ -13,13 +13,14 @@ func arrays() {
 	// declaration of an array
 	// 10 is the size and int is the type
 	// array are of fixed sizes and we cant add more elements to it.
+	// x:= [4]int{1,2,3,4} composite literal
 	var x [10]int
 	fmt.Println(x)
 	x[2] = 11
 	fmt.Println(x)
 
 }
-
+// difference between array and slice is we dont specify size for slices
 func slices() {
 	// slice allows us to group together values of same type
 	// composite literal
